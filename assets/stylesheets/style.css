@@ -9,3 +9,7 @@
 .card-img-top {
     max-height: 12rem;
 }
+
+body {
+    padding-bottom: 2rem;
+}
