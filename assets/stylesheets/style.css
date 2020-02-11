@@ -10,11 +10,22 @@
     max-height: 12rem;
 }
 
+html {
+    height: 100%;
+}
+
 body {
-    padding-bottom: 2rem;
+    min-height: 100%;
+    padding-bottom: 4rem;
+    position: relative;
 }
 
 .footer {
     position: absolute;
+    right: 0;
     bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
 }
